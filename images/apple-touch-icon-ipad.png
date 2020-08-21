@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+
+<script language="JavaScript"> 
+<!-- 
+var rad = 95; 
+var xoff = 25; 
+var yoff = 562; 
+var pi = Math.PI; 
+var inc = pi/40; 
+var pos=0; 
+function move() { 
+pos += inc; 
+if (pos>= pi ) {pos=0;} 
+obj.left = xoff; 
+obj.top = -(rad * Math.sin(pos)) + yoff;  
+setTimeout("move()", 50); 
+} 
+--> 
+</script>
+<title>Ошибка!!! </title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="description" content="Ошибка!!!">
+<meta name="keywords" content="Ошибка!!!">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+			<!-- Информ часть первый блок  -->
+<div id="error_posting_top">Ошибочный Status Codes (код возврата-ответа сервера)
+интернет стандарта  RFC2616 на протокол HTTP</div>
+
+<center><div id="error">404</div></center>
+
+<div id="error_posting">
+<center><p><font size="+1">Not Found</font></p><p>Страница не обнаружена</p></center>
+<p>Вы что-то потеряли? Или даже, скорее всего - это мы что-то потеряли?</p>
+<p>Так или иначе, но документ (каталог, файл) запрашиваемый вами отсутствует, или временно недоступен.
+Возможно, была допущена ошибка при создании ссылки, возможно просмотр
+запрашиваемого вами каталога запрещен в конфигурации сервера, либо документ был перемещен или переименован.
+Ни что не вечно в наше время...</p>
+<p>Если вы точно знаете, что ищите, напишите нам, например, с помощью комментариев на сайте или е-мейл.</p>
+<center><form>
+<input type="button" value="Назад" onclick="location.href='javascript:history.go(-1)'">&nbsp;
+<input type="button" value="Вперед" onclick="location.href='javascript:history.go(1)'">&nbsp;
+<input type="button" value="На Главную" onclick="location.href='/'">&nbsp;
+</form></center>
+
+
+</div>
+<div id="obj" style="position:absolute; left:500px; top:10px; width:10px; height:41px"><font face="Arial" color="#1F405F;"><strong><font size="+3">404</font></strong></font></div>
+<script language="JavaScript"> 
+<!--  
+var NN = (navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 4); 
+var obj = (NN) ? document.obj : document.all.obj.style; 
+move(); 
+--> 
+</script>
+
+
+
+
+<br><br>
+<div class="clearing">&nbsp;</div>						
+						
+<!-- <div id="wrapper"> -->
+
+<!-- <div id="outer_wrapper"> -->	
+	
+<!-- -------------------- Подвал ----------------------------------------------------- -->	
+	<div id="footer">
+Администратор Ресурса: <a href="http://fishermenfrompinsk.ru/doc/kontakty/index.php" title=" "> Мастер</a><br>
+	</div>
+
+
+
+<!-- отслеживание 404 ошибок метрикой -->
+<script type="text/javascript">
+var url = document.location.pathname + document.location.search	
+var url_referrer = document.referrer;
+var yaParams = {error404: {page: url, from: url_referrer}};
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
